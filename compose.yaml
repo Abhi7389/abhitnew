@@ -1,0 +1,14 @@
+services:
+  app:
+    build:
+      context: .
+    restart: unless-stopped
+    init: true
+    ports:
+      - "80:80"
+    depends_on: []
+    networks:
+      - app_network
+networks:
+  app_network:
+    driver: bridge

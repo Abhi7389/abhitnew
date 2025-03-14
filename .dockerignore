@@ -1,0 +1,44 @@
+# Node.js dependencies
+node_modules/
+
+# Angular cache and build artifacts
+.angular/cache/
+dist/
+
+# IDE and editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Version control
+.git/
+.gitignore
+
+# Environment and secrets
+.env*
+*.pem
+*.key
+*.crt
+
+# Documentation
+*.md
+README*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Local development
+.local/
+
+# Logs
+*.log
+
+# Test files
+*.spec.ts
+
+# Exclude Dockerfile and docker-compose files
+!Dockerfile*
+!docker-compose*
